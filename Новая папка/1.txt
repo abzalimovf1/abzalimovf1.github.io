@@ -1,0 +1,444 @@
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform
+$ git config --global user.name "Rishat"
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform
+$ git config --global user.email "abzalimovf1@yandex.ru"
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform
+$ git init
+Initialized empty Git repository in E:/OpenServer/domains/abzalimov-education-platform/.git/
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .git.rar
+        .gitignore
+        Doc2.docx
+        Git-2.36.1-64-bit.exe
+        bash.exe.stackdump
+        images/
+        index.html
+        scripts/
+        styles/
+        "\320\230\320\275\321\201\321\202\321\200\321\203\320\272\321\206\320\270\321\217 \320\277\320\276 \321\215\320\272\321\201\320\277\320\273\321\203\320\260\321\202\320\260\321\206\320\270\320\270.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git add .
+warning: LF will be replaced by CRLF in bash.exe.stackdump.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/common.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/common.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/copyright.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/copyright.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/header.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/header.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/main.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/modal.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/modal.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/other.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/other.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/sidebar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/sidebar.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/switcher.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in styles/css/switcher.css.map.
+The file will have its original line endings in your working directory
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .git.rar
+        new file:   .gitignore
+        new file:   Doc2.docx
+        new file:   Git-2.36.1-64-bit.exe
+        new file:   bash.exe.stackdump
+        new file:   images/icons/eye-100.png
+        new file:   images/sidebar/arrow.svg
+        new file:   images/sidebar/secret.gif
+        new file:   images/slider/1.png
+        new file:   images/slider/2.jpg
+        new file:   images/slider/3.jpg
+        new file:   images/slider/Figma.png
+        new file:   images/slider/google.png
+        new file:   images/slider/js.png
+        new file:   images/slider/ts.png
+        new file:   images/slider/vs.jpg
+        new file:   images/slider/yandex.png
+        new file:   images/social/TG.png
+        new file:   images/social/VK.png
+        new file:   images/social/WA.png
+        new file:   images/terms_of_use/ColorHTML.png
+        new file:   images/terms_of_use/Links.png
+        new file:   images/terms_of_use/Maps.png
+        new file:   images/terms_of_use/Navigation.png
+        new file:   images/terms_of_use/SpecialSymbols.png
+        new file:   index.html
+        new file:   scripts/metrics.js
+        new file:   scripts/modal.js
+        new file:   scripts/ready.js
+        new file:   scripts/scrollToTop.js
+        new file:   scripts/sidebar.js
+        new file:   scripts/slider.js
+        new file:   scripts/switcher.js
+        new file:   scripts/target_blank.js
+        new file:   styles/css/common.css
+        new file:   styles/css/common.css.map
+        new file:   styles/css/copyright.css
+        new file:   styles/css/copyright.css.map
+        new file:   styles/css/header.css
+        new file:   styles/css/header.css.map
+        new file:   styles/css/main.css
+        new file:   styles/css/main.css.map
+        new file:   styles/css/modal.css
+        new file:   styles/css/modal.css.map
+        new file:   styles/css/other.css
+        new file:   styles/css/other.css.map
+        new file:   styles/css/sidebar.css
+        new file:   styles/css/sidebar.css.map
+        new file:   styles/css/switcher.css
+        new file:   styles/css/switcher.css.map
+        new file:   styles/scss/common.scss
+        new file:   styles/scss/copyright.scss
+        new file:   styles/scss/header.scss
+        new file:   styles/scss/main.scss
+        new file:   styles/scss/modal.scss
+        new file:   styles/scss/other.scss
+        new file:   styles/scss/sidebar.scss
+        new file:   styles/scss/switcher.scss
+        new file:   "\320\230\320\275\321\201\321\202\321\200\321\203\320\272\321\206\320\270\321\217 \320\277\320\276 \321\215\320\272\321\201\320\277\320\273\321\203\320\260\321\202\320\260\321\206\320\270\320\270.txt"
+
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ touch .gitignore
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 8df321c] Initial commit
+ 59 files changed, 3752 insertions(+)
+ create mode 100644 .git.rar
+ create mode 100644 .gitignore
+ create mode 100644 Doc2.docx
+ create mode 100644 Git-2.36.1-64-bit.exe
+ create mode 100644 bash.exe.stackdump
+ create mode 100644 images/icons/eye-100.png
+ create mode 100644 images/sidebar/arrow.svg
+ create mode 100644 images/sidebar/secret.gif
+ create mode 100644 images/slider/1.png
+ create mode 100644 images/slider/2.jpg
+ create mode 100644 images/slider/3.jpg
+ create mode 100644 images/slider/Figma.png
+ create mode 100644 images/slider/google.png
+ create mode 100644 images/slider/js.png
+ create mode 100644 images/slider/ts.png
+ create mode 100644 images/slider/vs.jpg
+ create mode 100644 images/slider/yandex.png
+ create mode 100644 images/social/TG.png
+ create mode 100644 images/social/VK.png
+ create mode 100644 images/social/WA.png
+ create mode 100644 images/terms_of_use/ColorHTML.png
+ create mode 100644 images/terms_of_use/Links.png
+ create mode 100644 images/terms_of_use/Maps.png
+ create mode 100644 images/terms_of_use/Navigation.png
+ create mode 100644 images/terms_of_use/SpecialSymbols.png
+ create mode 100644 index.html
+ create mode 100644 scripts/metrics.js
+ create mode 100644 scripts/modal.js
+ create mode 100644 scripts/ready.js
+ create mode 100644 scripts/scrollToTop.js
+ create mode 100644 scripts/sidebar.js
+ create mode 100644 scripts/slider.js
+ create mode 100644 scripts/switcher.js
+ create mode 100644 scripts/target_blank.js
+ create mode 100644 styles/css/common.css
+ create mode 100644 styles/css/common.css.map
+ create mode 100644 styles/css/copyright.css
+ create mode 100644 styles/css/copyright.css.map
+ create mode 100644 styles/css/header.css
+ create mode 100644 styles/css/header.css.map
+ create mode 100644 styles/css/main.css
+ create mode 100644 styles/css/main.css.map
+ create mode 100644 styles/css/modal.css
+ create mode 100644 styles/css/modal.css.map
+ create mode 100644 styles/css/other.css
+ create mode 100644 styles/css/other.css.map
+ create mode 100644 styles/css/sidebar.css
+ create mode 100644 styles/css/sidebar.css.map
+ create mode 100644 styles/css/switcher.css
+ create mode 100644 styles/css/switcher.css.map
+ create mode 100644 styles/scss/common.scss
+ create mode 100644 styles/scss/copyright.scss
+ create mode 100644 styles/scss/header.scss
+ create mode 100644 styles/scss/main.scss
+ create mode 100644 styles/scss/modal.scss
+ create mode 100644 styles/scss/other.scss
+ create mode 100644 styles/scss/sidebar.scss
+ create mode 100644 styles/scss/switcher.scss
+ create mode 100644 "\320\230\320\275\321\201\321\202\321\200\321\203\320\272\321\206\320\270\321\217 \320\277\320\276 \321\215\320\272\321\201\320\277\320\273\321\203\320\260\321\202\320\260\321\206\320\270\320\270.txt"
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git commit -m "Added Hello World"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git remote add origin git@github.com:abzalimovf1/Rishat.git
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (master)
+$ git branch -M main
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git push -u origin main
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ./.ssh
+bash: ./.ssh: No such file or directory
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ls
+ Doc2.docx                images/          scripts/
+ Git-2.36.1-64-bit.exe*   index.html       styles/
+ bash.exe.stackdump       index.html.bak  'Инструкция по эксплуатации.txt'
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ mkdir ~/.ssh
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ cd ~/.ssh
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh-keygen -t rsa -b 4096 -C "abzalimovf1@yandex.ru"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Ришат/.ssh/id_rsa): git77
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in git77
+Your public key has been saved in git77.pub
+The key fingerprint is:
+SHA256:jaajkVWLcbJTVx0GSB5lMj3vQsrMDIbWKKAZzuxTw8M abzalimovf1@yandex.ru
+The key's randomart image is:
++---[RSA 4096]----+
+|         .=+=oo. |
+|. .      ..*o..  |
+|++o.  o++ o  o   |
+|o+ E. +O+=  . .  |
+|. . oo=.S*.o .   |
+| o   o +  * . .  |
+|  . o o      .   |
+|     o .         |
+|    .            |
++----[SHA256]-----+
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ls
+git77  git77.pub
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ cat git77.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDmkNQCfUEeeawt2YU3jUSVQqJ2XSeCFbs+/T6DZjvYrPBYUFDhk6dBZZdQBdcU1e5i2Dj9+ZP0LnMaZYpJNX/EHI5P8wgOrW4n235rFghPbn6bfemlRq3n/jvpvopCctTta5Q240c6qgbyS/jS4A0DDPsuLncRDHS4bzsZw31A4fow2CnTSI15eJ1kibypfm3JWM6JWpysq06A2MH0ziKnF2u6cY5AQ8wxuBDBwZqOBN/fgPIGZtwK0h9Ivs1xLDWNmWSjY8BM6fxrwVhuTn1FxIlrlEl64TyQScoWlCyeOOpv5RBI224/vuQyYyMKrDJ9D+IFPfW4BmHtVX6JFkWKxhYaEZPYJzXfN/o8enzAvcOJ/+mVJUFbkpCJ2sRaXdYut7Hj3C1V+ByPYFZd06QVmZsZbbEoofMKA2ilf/zBB15PbzdLt41+GWmS8qkeUa4r/qxEL/JmbHJ39c0Olx+Y+MmiYwLwZjAbWQhg77xCVE88iVQwV4t6OIu2Baefti/kUufZDcN4q0g9JnEgWwEUzyp3Dr+ZJXcjgXTI9q0LTow+JarpsdkxpUO7bMJeo4G1u+QH2GimA4hryVz14w0iSIzqePcy7bJ+MYPre6e1jQRVoWTr/lx5I0/M1wuOkd/QLoDRIGALz3v4n+oJPUluIw88aIML0ERAuF/SxsS3CQ== abzalimovf1@yandex.ru
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ls
+git77  git77.pub
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ $ ssh -T -i ./.ssh/git77 git@github.com
+bash: $: command not found
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T -i ./.ssh/git77 git@github.com
+Warning: Identity file ./.ssh/git77 not accessible: No such file or directory.
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T -i git77 git@github.com
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi abzalimovf1! You've successfully authenticated, but GitHub does not provide shell access.
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ^C
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ls
+config  config.bak  config.txt.bak  git77  git77.pub
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ mkdir ~/.ssh
+mkdir: cannot create directory ‘/c/Users/Ришат/.ssh’: File exists
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform/.ssh (main)
+$ cd ~/.ssh
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh-keygen -t rsa -b 4096 -C "abzalimovf1@yandex.ru"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Ришат/.ssh/id_rsa): git77
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in git77
+Your public key has been saved in git77.pub
+The key fingerprint is:
+SHA256:XTEp1WtV9c/M+Brao2dmyOCMT8RDHvZkiI6Mwzg6XDk abzalimovf1@yandex.ru
+The key's randomart image is:
++---[RSA 4096]----+
+|           .+o  =|
+|         ....o. o|
+|        . =.+  o.|
+|   o.o o * *  o=.|
+|  oE+ o S * ... =|
+|......   ...   . |
+|o.       +.o .. .|
+| .      ..o oo*o |
+|         .. o*o. |
++----[SHA256]-----+
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ls
+git77  git77.pub  known_hosts  known_hosts.old
+
+Ришат@-------- MINGW64 ~/.ssh
+$ cat git77.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD648N9f4qqO3VSEB20+vevr0FdbzEmYy7ujwQ81HgALxgK8daT65sDoKrhbkUpHsTbbVLSN+YVlkZ8maI0An4RPLH9QeKIVJt2e+vdCzJNTMZB3n8NQ1UdBBiPhKXj42yt0kg9hgxhTkAaovpvheHd/rxhZ30XXi58Qgd/6ecKHtAW+V2hFXxi6Nw+6By1rm8m/xQq8POfb0qZIKQc+KXfO4oExLvek/i3DVeH8P/VWTaKa/qzUkumUH+KfLe9lTqeN4Rg+SUc0LxmpvPIZkVZ+b9oyrAtc0rbHvg4s4EavXBMlg5bZoa9dDkOj94OiQYzYlpzSNFY2vGz1jF24MuqRXVXNGpFZpHvz4R9ukQ5ONc4yuommhJDG6T/L9wGf8Iu5aWFblhFZFx+NdvTFePg2p2AcHvpz6q7oxE+chaSyEHzW3KkjzeSJ7HFkKFUy9ZoDRAgj3AjhK6ApOlBGEQAKkivmOGro5F2vFp3nD2yfG0ACeqlxbRXZqyBV1Avl9qDmWyuEnyaaI00LGEvGSv4jb2NdqlOLKZeOsectoC8aSGA14h8T1NahWvJGCJcEzD/7OqrvZkB0IolXH153m6DLpZ1bN62IvhDR20J9Fgw0iozSC0CwKrjbN//llk64QcE6xM9Dv++WHPD5+YgU1n0xycXYOPsUwChwTZjbaCc2w== abzalimovf1@yandex.ru
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh -T -i ~/.ssh/git77 git@github.com
+Hi abzalimovf1! You've successfully authenticated, but GitHub does not provide shell access.
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ls
+config.txt  config.txt.bak  git77  git77.pub  known_hosts  known_hosts.old
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh -T -i ~/.ssh/git77 git@github.com
+Hi abzalimovf1! You've successfully authenticated, but GitHub does not provide shell access.
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh -T -i ~/.ssh/git77.pub git@github.com
+Load key "/c/Users/\320\240\320\270\321\210\320\260\321\202/.ssh/git77.pub": invalid format
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh -T -i ~/.ssh/git77 git@github.com
+Hi abzalimovf1! You've successfully authenticated, but GitHub does not provide shell access.
+
+Ришат@-------- MINGW64 ~/.ssh
+$ git remote add origin git@github.com:abzalimovf1/Rishat.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Ришат@-------- MINGW64 ~/.ssh

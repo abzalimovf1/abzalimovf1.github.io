@@ -1,0 +1,38 @@
+
+Ришат@-------- MINGW64 / (main)
+$ omains/abzalimov-education-platform
+
+Ришат@-------- MINGW64 / (main)
+$ cd /E/OpenServer/domains/abzalimov-education-platform
+
+Ришат@-------- MINGW64 /E/OpenServer/domains/abzalimov-education-platform (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        modified:   index.html.bak
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ~$Doc2.docx
+        modified:   "\320\230\320\275\321\201\321\202\321\200\321\203\320\272\321\206\320\270\321\217 \320\277\320\276 \321\215\320\272\321\201\320\277\320\273\321\203\320\260\321\202\320\260\321\206\320\270\320\270.txt"
+
+
+Ришат@-------- MINGW64 /E/OpenServer/domains/abzalimov-education-platform (main)
+$ git add .
+
+Ришат@-------- MINGW64 /E/OpenServer/domains/abzalimov-education-platform (main)
+$ git commit -m "первое действие"
+[main 4b33ed3] первое действие
+ 4 files changed, 6 insertions(+), 3 deletions(-)
+ delete mode 100644 ~$Doc2.docx
+
+Ришат@-------- MINGW64 /E/OpenServer/domains/abzalimov-education-platform (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/abzalimovf1/Rishat.git'
+
+Ришат@-------- MINGW64 /E/OpenServer/domains/abzalimov-education-platform (main)
+$

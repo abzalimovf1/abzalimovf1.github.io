@@ -1,0 +1,180 @@
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ды
+bash: ды: command not found
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ls
+ Doc2.docx                index.html       styles/
+ Git-2.36.1-64-bit.exe*   index.html.bak  'Инструкция по эксплуатации.txt'
+ images/                  scripts/
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ Start .
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ls
+ Doc2.docx                index.html       styles/
+ Git-2.36.1-64-bit.exe*   index.html.bak  'Инструкция по эксплуатации.txt'
+ images/                  scripts/
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ls
+ Doc2.docx                index.html       styles/
+ Git-2.36.1-64-bit.exe*   index.html.bak  'Инструкция по эксплуатации.txt'
+ images/                  scripts/
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ tach w
+bash: tach: command not found
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git commit -m "Начал сохранять"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git add .
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git commit -m "Начал сохранять"
+[main 53ec940] Начал сохранять
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ls
+ Doc2.docx                index.html       styles/
+ Git-2.36.1-64-bit.exe*   index.html.bak  'Инструкция по эксплуатации.txt'
+ images/                  scripts/
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git log
+commit 53ec940986d267a3c464bfdecdbcc908bc412e9b (HEAD -> main)
+Author: Rishat <abzalimovf1@yandex.ru>
+Date:   Fri May 20 13:17:34 2022 +0300
+
+    Начал сохранять
+
+commit d0c761b9ec5247ccf09b8a5c4e8dbcc209816560
+Author: Rishat77 <abzalimovrrr@yandex.ru>
+Date:   Fri May 20 11:46:14 2022 +0300
+
+    Initial commit
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ ls
+ Doc2.docx                index.html       styles/
+ Git-2.36.1-64-bit.exe*   index.html.bak  'Инструкция по эксплуатации.txt'
+ images/                  scripts/
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ mkdir ~/.ssh
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ sl
+bash: sl: command not found
+
+Ришат@-------- MINGW64 /e/OpenServer/domains/abzalimov-education-platform (main)
+$ cd ~/.ssh
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh-keygen -t rsa -b 4096 -C "abzalimovf1@yandex.ru"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Ришат/.ssh/id_rsa): git77
+манихина 1
+
+
+Ришат@-------- MINGW64 ~/.ssh
+$
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ssh-keygen -t rsa -b 4096 -C "abzalimovf1@yandex.ru"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Ришат/.ssh/id_rsa): git77
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in git77
+Your public key has been saved in git77.pub
+The key fingerprint is:
+SHA256:MB46PRmT9A4d0ZiBLhye2tsEamgE9p6zpzR0wXv2V+A abzalimovf1@yandex.ru
+The key's randomart image is:
++---[RSA 4096]----+
+|      ..+*       |
+|..  o..+o..      |
+|o .o *O o  .     |
+| . .*++X  . .    |
+|...=+==oS  E .   |
+|..=+o.+..   .    |
+|.. oo+   . .     |
+|  ..o..   .      |
+|   .o            |
++----[SHA256]-----+
+
+Ришат@-------- MINGW64 ~/.ssh
+$ sl
+bash: sl: command not found
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ls
+''$'\033''[C'$'\033''[D'$'\033''[A'$'\033''[Bgit77'
+''$'\033''[C'$'\033''[D'$'\033''[A'$'\033''[Bgit77.pub'
+
+Ришат@-------- MINGW64 ~/.ssh
+$ cat ''$'\033''[C'$'\033''[D'$'\033''[A'$'\033''[Bgit77.pub'
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCXbzKYkVvGWZH8YcNbNnUZRPc3CvV5CPoi1VMrntOJ4y8pjCMtKFdxSb6ZbyvikbCp6nlrPpeYqgOKHt105eMiON+oCs8vNLvP5BLWDMl0LaZLHNHvOCMAwkgzB8EvIjwdsP0nf0aCu0PSRrdLnttAH/CeJ+GMVNnp2nQbGA6OEPE9E3/pk1ehxZVfqBi2pBJrDZ9NJu5Dn8fWWC94+Tf7R8kNenCo2b41QBReut+Qvo/zZy9do2pZYtg+tugAhmtgyEg/hQcuG1AJOP0+UaZdlf/R/9o8SIftd9oZotC+4vZipd7nJaSp+q/m0Wa3KZoPzpEHs4cHDkXJC1se8g1NxM4UBO9zRAZSs/cVZaAsGfg9Rc/fIGyYtUT8gDcFiNXNpt1QKipa5VDo1iM1lzaaiErG6rAMr8M5mG5TUHzJF3/uoRHBYa37TCrayVUmUan84zJ9Mtk1cCeXLiQQdocCXTGQZF2eIzArXu6JJkBMPk8FqxomyqT+DzS7RX1CAFFFLjfT+B/hmpdwjadvMNhrt4xqDha3Vv4jAV9RwhvoymRIdZnlqrEDAg15PiZos8Ez0/Gx5Z2DVuNdS07DmAxLmCu4h0sH7Y4G3KGuRl3J7+ZKp1yfATXRomVVRY+7uK5n62KwZEDY38alLGoWsJTT8xKelnkjTJoGVO4gHTb8OQ== abzalimovf1@yandex.ru
+
+Ришат@-------- MINGW64 ~/.ssh
+$ ~/.ssh -T -i ~/.ssh/git77.pub' git@github.com
+cat git77.pub
+~/.ssh
+$ ssh -T -i ~/.ssh/git77 git@github.com
+ssh -T git@github.com
+
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Load key "/c/Users/\320\240\320\270\321\210\320\260\321\202/.ssh/\033[C\033[D\033[A\033[Bgit77.pub": invalid format
+git@github.com: Permission denied (publickey).
+
+Ришат@-------- MINGW64 ~/.ssh
+$

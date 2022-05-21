@@ -1,0 +1,17 @@
+﻿1 - вносите изменения
+2 - открываете Git Bash Command
+3 - вводите такую команду: cd /C/Users/Преподаватель/Desktop/vscode-project
+4 - или проходите по полному пути, который Вам сейчас нужен: 
+cd /C/Users/Преподаватель/Desktop/vscode-project/abzalimov-education-platform (нажмите Shift + Insert в терминале, после копирования)
+
+
+cd /E/OpenServer/domains/abzalimov-education-platform
+
+5 - Вводим следующее: 
+1 - "git status" на проверку модифицированных или добавленных файлов
+2 - "git add ." чтобы индексировать все файлы
+3 - Еще раз (на всякий случай) пишем "git status", чтобы проверить, что все файлы стали зелеными
+4 - Кладем изменения в коробку с помощью "git commit -m "MESSAGE" " - "-m" значит MESSAGE - сообщение
+5 - После этого пишем данную команду и не заморачиваемся: 
+"git push origin master" - master - это имя ветки
+Далее ждем 5-10 минут и видим изменения на хосте GITHUB.com
